@@ -1,5 +1,16 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
 .DS_Store
-.dart_tool/
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
 # Flutter/Dart/Pub related
 # Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
@@ -7,7 +18,8 @@
 /example/pubspec.lock
 **/doc/api/
 .dart_tool/
-.packages
+.flutter-plugins
+.flutter-plugins-dependencies
 build/
 
 .flutter-plugins-dependencies
